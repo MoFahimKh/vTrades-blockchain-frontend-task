@@ -1,0 +1,44 @@
+{
+  "name": "vTrade",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "Please use pnpm",
+    "yarn": "Please use pnpm",
+    "pnpm": ">=10.8.0 <11",
+    "node": ">=20 <22"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@opencampus/ocid-connect-js": "^1.2.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "ethers": "^6.13.5",
+    "lucide-react": "^0.487.0",
+    "next": "15.2.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.1.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "15.2.3",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "3.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.8.0"
+}
